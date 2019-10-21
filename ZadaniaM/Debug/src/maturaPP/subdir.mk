@@ -5,14 +5,20 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/maturaPP/BaseSolution.cpp \
+../src/maturaPP/Zad292.cpp \
+../src/maturaPP/Zad293.cpp \
 ../src/maturaPP/Zad404.cpp 
 
 OBJS += \
 ./src/maturaPP/BaseSolution.o \
+./src/maturaPP/Zad292.o \
+./src/maturaPP/Zad293.o \
 ./src/maturaPP/Zad404.o 
 
 CPP_DEPS += \
 ./src/maturaPP/BaseSolution.d \
+./src/maturaPP/Zad292.d \
+./src/maturaPP/Zad293.d \
 ./src/maturaPP/Zad404.d 
 
 

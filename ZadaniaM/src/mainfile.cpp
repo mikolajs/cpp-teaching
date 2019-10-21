@@ -8,11 +8,14 @@
 
 #include <iostream>
 #include "maturaPP/Zad404.h"
+#include "maturaPP/Zad292.h"
+#include "maturaPP/Zad293.h"
 #include <string>
 
 int main(){
 	std::cout << "zadania maturalne" << std::endl;
-	Zad404 zad404;
-	zad404.solution();
+	BaseSolution *zad = new Zad293();
+	zad->solution();
+	delete zad;
 	return 0;
 }
