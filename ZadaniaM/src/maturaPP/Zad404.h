@@ -8,13 +8,28 @@
 #ifndef ZAD404_H_
 #define ZAD404_H_
 #include "BaseSolution.h"
+#include <map>
+#include <vector>
 
-class Zad404 : BaseSolution {
+struct Calls {
+	std::string phone;
+	std::string date;
+	std::string time;
+	int q;
+	char a;
+};
+
+class Zad404 : public BaseSolution {
 public:
 	Zad404();
 	void solution() override;
-	void test();
 	virtual ~Zad404();
+private:
+	std::map<int, char> answers;
+    std::vector<Calls> calls;
+    void print();
 };
+
+
 
 #endif /* ZAD404_H_ */
