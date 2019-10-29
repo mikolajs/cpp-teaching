@@ -15,11 +15,11 @@
 
 int main(){
 	std::cout << "zadania maturalne" << std::endl;
-//	Zad294 *zad294 = new Zad294();
-//	zad294->solution();
-//	delete zad294;
-    Zad404	 *zad = new Zad404();
-	zad->solution();
-	delete zad;
+	Zad294 *zad294 = new Zad294();
+	zad294->solution();
+	delete zad294;
+//    Zad404	 *zad = new Zad404();
+//	zad->solution();
+//	delete zad;
 	return 0;
 }

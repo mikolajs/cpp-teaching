@@ -19,6 +19,7 @@ struct Calls {
 	char a;
 };
 
+
 class Zad404 : public BaseSolution {
 public:
 	Zad404();
@@ -27,7 +28,13 @@ public:
 private:
 	std::map<int, char> answers;
     std::vector<Calls> calls;
+    void A();
+    void B();
+    void C();
+    void D();
+    void E();
     void print();
+    int dayOfWeek(std::string date);
 };
 
 
